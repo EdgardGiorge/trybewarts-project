@@ -21,6 +21,14 @@ main {
   flex-direction: column;
 }
 
+#nome-completo {
+  flex-direction: row;
+}
+
+#nome-completo input {
+  width: 300px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
