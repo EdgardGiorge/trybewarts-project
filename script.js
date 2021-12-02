@@ -12,7 +12,6 @@ const house = document.getElementById('house');
 const materias = document.getElementsByName('checkboxConteudo');
 const familia = document.getElementsByName('family');
 const nota = document.getElementsByName('rate');
-const divResposta = document.getElementById('resposta');
 let count = 500;
 countVis.innerText = count;
 submitButton.disabled = true;
@@ -94,16 +93,31 @@ function criaResposta() {
   const rObsText = `Observações: ${textArea.value}`;
   localStorage.setItem('Obs', rObsText);
 }
-function getResposta() {
-  if (localStorage.length !== 0) {
-    rNome.innerText = localStorage.getItem('Nome');
-    rEmail.innerText = localStorage.getItem('Email');
-    rCasa.innerText = localStorage.getItem('Casa');
-    rFamilia.innerText = localStorage.getItem('Familia');
+function getResposta2() {
+  if (localStorage.getItem('Materias') !== '') {
     rMateria.innerText = localStorage.getItem('Materias');
+  }
+  if (localStorage.getItem('Rate') !== '') {
     rRate.innerText = localStorage.getItem('Rate');
+  }
+  if (localStorage.getItem('Obs') !== '') {
     rObs.innerText = localStorage.getItem('Obs');
   }
+}
+function getResposta() {
+  if (localStorage.getItem('Nome') !== '') {
+    rNome.innerText = localStorage.getItem('Nome');
+  }
+  if (localStorage.getItem('Email') !== '') {
+    rEmail.innerText = localStorage.getItem('Email');
+  }
+  if (localStorage.getItem('Casa') !== '') {
+    rCasa.innerText = localStorage.getItem('Casa');
+  }
+  if (localStorage.getItem('Familia') !== '') {
+    rFamilia.innerText = localStorage.getItem('Familia');
+  }
+  getResposta2();
 }
 getResposta();
 submitButton.addEventListener('click', criaResposta);
