@@ -8,6 +8,7 @@
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 main {
@@ -18,6 +19,10 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
 
 .trybewarts-header-logo {
