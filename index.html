@@ -49,22 +49,22 @@
       <section>
         <label for='checkboxConteudo' id='label-content'>Qual conteúdo você está com mais vontade de aprender?</label>
         <br>      
-        <input type='checkbox' value='HoFs' id='HoFs' name='checkboxConteudo'>
+        <input type='checkbox' value='HoFs' class='subject' id='HoFs' name='checkboxConteudo'>
         <label for='HoFs'>HoFs</label>
         <br>       
-        <input type='checkbox' value='Jest' name='checkboxConteudo'>
+        <input type='checkbox' class='subject' value='Jest' name='checkboxConteudo'>
         <label for='Jest'>Jest</label>
         <br>       
-        <input type='checkbox' value='Promises' name='checkboxConteudo'>
+        <input type='checkbox' class='subject' value='Promises' name='checkboxConteudo'>
         <label for='Promises'>Promises</label>
         <br> 
-        <input type='checkbox' value='React' name='checkboxConteudo'>
+        <input type='checkbox' class='subject' value='React' name='checkboxConteudo'>
         <label for='React'>React</label>
         <br> 
-        <input type='checkbox' value='SQL' name='checkboxConteudo'>
+        <input type='checkbox' class='subject' value='SQL' name='checkboxConteudo'>
         <label for='SQL'>SQL</label>
         <br> 
-        <input type='checkbox' value='Python' name='checkboxConteudo'>
+        <input type='checkbox' class='subject' value='Python' name='checkboxConteudo'>
         <label for='Python'>Python</label>
       </section>
       <section>
@@ -95,11 +95,20 @@
       <span id='counter'></span>
       <div>
         <label id='label-infos' for='agreement'>Você concorda com o uso das informações acima?</label>
-        <input type='checkbox' name='infos' id='agreement'>
+        <input type='checkbox' class= 'subject' name='infos' id='agreement'>
       </div>
       <button type='submit' id='submit-btn'>Enviar</button>
+      <div id='resposta'>
+        <p id='rNome'>Nome: -Nome- -Sobrenome-</p>
+        <p id='rEmail'>Email: -Email-</p>
+        <p id='rCasa'>Casa: -Casa-</p>
+        <p id='rFamilia'>Família: -Família-</p>
+        <p id='rMaterias'>Matérias: -Matérias Selecionadas-</p>
+        <p id='rAvaliacao'>Avaliação: -Avaliação-</p>
+        <p id='rObs'>Observações: -Observações-</p>
+      </div>
     </form>
-    <img id= 'trybewarts-forms-logo' src='images/trybewarts-colored.svg'>
+    <img id= 'trybewarts-forms-logo' src='images/trybewarts-colored.svg'>    
   </main>
   <footer>Direitos reservados à Trybewarts©</footer>  
 </body>
