@@ -1,6 +1,7 @@
 # Este é o espaço de feedback do Projeto Trybewarts
 ## Aqui você e sua dupla poderão avaliar o projeto, deixar comentários, críticas, sugestões...
 
+Ótima oportunidade pra troca de experiências , com diferentes visões, sentimentos, possibilitam participação em grupo para o aprendizado.
 ---
 
 **É muito importante receber este feedback, para que possamos melhorar a qualidade do conteúdo oferecido às pessoas estudantes.**
@@ -11,7 +12,7 @@
 
 ---
 
-**Nota**: /ESCREVAM SUA NOTA AQUI/
+**Nota**: / 10 /
 
 ---
 
@@ -19,11 +20,11 @@
 
 ---
 
-**Observações**: /ESCREVAM SUAS OBSERVAÇÕES AQUI/
+**Observações**: / Não /
 
 ---
 
-**Pessoas integrantes da dupla**: /ESCREVAM SEUS NOMES AQUI/
+**Pessoas integrantes da dupla**: / Eduardo Souza & Edgard Giorge/
 
 ---
 
